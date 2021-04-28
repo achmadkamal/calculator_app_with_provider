@@ -1,16 +1,8 @@
 # calculator_app_with_provider
 
-A new Flutter project.
+Calculator App with Provider and Url Launcher
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Overview1](https://github.com/achmadkamal/calculator_app_with_provider/blob/master/images/Overview1.png?raw=true)
+![Overview2](https://github.com/achmadkamal/calculator_app_with_provider/blob/master/images/Overview2.png?raw=true)
