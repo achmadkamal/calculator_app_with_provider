@@ -18,11 +18,6 @@ class CalculatorApp with ChangeNotifier {
     notifyListeners();
   }
 
-  void clear(String newValue) {
-    valueInput = '';
-    notifyListeners();
-  }
-
   void buttonPressed(String newValue) {
     valueInput += newValue;
     notifyListeners();

@@ -50,17 +50,21 @@ class CalculatorScreen extends StatelessWidget {
             children: <Widget>[
               CalculatorButton(
                 textColor: Colors.black,
-                color: kOrange,
-                width: 105.0,
+                color: Colors.greenAccent,
                 text: 'AC',
                 buttonPressed: provider.allClear,
               ),
               CalculatorButton(
                 textColor: Colors.black,
                 color: kOrange,
-                width: 105.0,
-                text: 'C',
-                buttonPressed: provider.clear,
+                text: '(',
+                buttonPressed: provider.buttonPressed,
+              ),
+              CalculatorButton(
+                textColor: Colors.black,
+                color: kOrange,
+                text: ')',
+                buttonPressed: provider.buttonPressed,
               ),
               CalculatorButton(
                 textColor: Colors.black,
